@@ -21,27 +21,27 @@ GRLIB_sector_cap = 70 * GRLIB_unitcap;
 GRLIB_battlegroup_cap = 75 * GRLIB_unitcap;
 GRLIB_patrol_cap = 10 * GRLIB_unitcap;
 GRLIB_blufor_cap = 10 * GRLIB_unitcap;
-GRLIB_battlegroup_size = 5;
+GRLIB_battlegroup_size = 6;
 GRLIB_civilians_amount = 1.1 * GRLIB_civilian_activity;
 GRLIB_fob_range = 450;
-GRLIB_surrender_chance = 40;
-GRLIB_secondary_missions_costs = [ 70,5 ];
+GRLIB_surrender_chance = 65;
+GRLIB_secondary_missions_costs = [ 30,3 ];
 GRLIB_halo_altitude = 2000;
 GRLIB_civ_killing_penalty = 0;
 GRLIB_squad_size_bonus = 0;
 GRLIB_perm_ban = -1000000;
 MSU_Rank_Private = 0;
 MSU_Rank_Corporal = 500;
-MSU_Rank_Sergeant = 1000;
-MSU_Rank_Captain = 1500;
-MSU_Rank_Major = 2000;
+MSU_Rank_Sergeant = 800;
+MSU_Rank_Captain = 1300;
+MSU_Rank_Major = 1700;
 GRLIB_date_year = 2024;
 GRLIB_date_month = 7;
 GRLIB_date_day = 30;
 GRLIB_nights_start = 21;
 GRLIB_nights_stop = 4;
 GRLIB_blufor_cap = 64;
-GREUH_start_ammo = 150;
+GREUH_start_ammo = 100;
 
 // don't forget that the human commander manages those, not the server
 GRLIB_offload_diag = false;
@@ -69,7 +69,7 @@ tkill_score = -7;
 tkill_ammo = -15;
 tk_active = false; //NEW Tkillscript with dialog
 msu_score_min = -20;
-msu_score_max = 2500;
+msu_score_max = 2000;
 msu_ammo_min = 0;
 msu_ammo_max = 999999;
 MSU_DisableFobFiring = true;
@@ -80,13 +80,13 @@ MSU_DisableFobFiring = true;
 
 
 // logistics
-prisoner_intel = 10;
+prisoner_intel = 18;
 prisoner_score = 18;
-prisoner_ammo = 60;
-prisoner_combat_readiness = 10;
+prisoner_ammo = 65;
+prisoner_combat_readiness = 25;
 prisoner_i = 0;
 
-box_recycle_value = 34; // Only use by 2 dividable numbers
+box_recycle_value = 36; // Only use by 2 dividable numbers
 logistics_ammo_for_all = true;
 logistics_ammo_increase = true;
 
@@ -122,7 +122,7 @@ AI_leader_radio = false;
 // AI skill
 skill_scan = false;
 skill_parachuters = 0.9;
-skill_air_vehicles_planes = 0.9;
+skill_air_vehicles_planes = 0.8;
 skill_air_vehicles_helicopters = 0.7;
 skill_ground_vehicles = 0.6;
 
@@ -146,8 +146,8 @@ fob_hunting_readiness = 40;
 
 // Battlegroup readiness
 bg_readiness_cooldown = false;
-bg_readiness_min = 50;
-bg_readiness_high = 100;
+bg_readiness_min = 60;
+bg_readiness_high = 90;
 // msu loops
 msu_heartbeat = 240;
 huber_commandos = true;
@@ -176,14 +176,12 @@ ied_enemy_sector = ["ACE_IEDLandBig_Range", "APERSMine", "APERSBoundingMine", "I
 
 
 moderators = [
-    "76561199098820373", // ryanm
-    "76561198948326081" // Бабай
+    "76561199098820373" // ryanm
 ];
 
 curatorLogicGroup = createGroup [sideLogic, false];
 allowed_zeus_curators = [
-    ["76561199098820373", "ryanm"],
-    ["76561198948326081", "Бабай"]
+    ["76561199098820373", "ryanm"]
 ];
 
 
@@ -347,52 +345,6 @@ item_blacklist = [];
 
 
 MSU_blacklisted_from_arsenal = [
-"Pipe_aluminum",
-"Bat_Clear",
-"Bat_Spike",
-"WBK_BrassKnuckles",
-"WBK_brush_axe",
-"WBK_craftedAxe",
-"Crowbar",
-"CrudeAxe",
-"FireAxe",
-"WBK_survival_weapon_2",
-"WBK_pipeStyledSword",
-"Shield_Police",
-"Shield_RoadSign_NoPeople",
-"Shield_RoadSign",
-"Shield_RoadSign_Stop",
-"kat_bloodIV_O",
-"kat_bloodIV_O_N",
-"kat_bloodIV_A",
-"kat_bloodIV_A_N",
-"kat_bloodIV_AB",
-"kat_bloodIV_AB_N",
-"kat_bloodIV_B",
-"kat_bloodIV_B_N",
-"kat_bloodIV_O_250",
-"kat_bloodIV_O_N_250",
-"kat_bloodIV_A_250",
-"kat_bloodIV_A_N_250",
-"kat_bloodIV_AB_250",
-"kat_bloodIV_AB_N_250",
-"kat_bloodIV_B_250",
-"kat_bloodIV_B_N_250",
-"kat_bloodIV_O_500",
-"kat_bloodIV_O_N_500",
-"kat_bloodIV_A_500",
-"kat_bloodIV_A_N_500",
-"kat_bloodIV_AB_500",
-"kat_bloodIV_AB_N_500",
-"kat_bloodIV_B_500",
-"kat_bloodIV_B_N_500",
-"kat_crossPanel",
-"ACE_bodyBag_blue",
-"ACE_bodyBag_white",
-"Rod",
-"rhs_weap_igla",
-"CUP_launch_9K32Strela",
-"CUP_launch_FIM92Stinger",
 "H_HelmetO_ViperSP_hex_F",
 "H_HelmetO_ViperSP_ghex_F",
 "U_O_V_Soldier_Viper_hex_F",

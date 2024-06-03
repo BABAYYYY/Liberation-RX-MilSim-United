@@ -24,7 +24,7 @@ allowFunctionsRecompile = 1;
 // Disable specific channels for voice and text communication.
 // MOTD and admin say have exception and will show in global.
 // 0 Global, 1 Side, 2 Command, 3 Group, 4 Vehicle, 5 Direct, 6 System
-disableChannels[] = {0};
+disableChannels[] = {0, 2, 4, 5};
 
 
 /*
@@ -39,13 +39,13 @@ disableChannels[] = {0};
 corpseManagerMode = 1;
 
 // Corpse limit before which (<=) corpseRemovalMaxTime applies and after which (>) corpseRemovalMinTime applies.
-corpseLimit = 16;
+corpseLimit = 14;
 
 // Remove all bodies that have been dead longer than corpseRemovalMinTime when corpseLimit is reached.
-corpseRemovalMinTime = 600;
+corpseRemovalMinTime = 500;
 
 // Maximum time a corpse can remain on the ground if total number of corpses is equal or under corpseLimit.
-corpseRemovalMaxTime = 1200;
+corpseRemovalMaxTime = 1100;
 
 // Sets the mode for wreck removal manager.
 // 0 = None                 - None of the vehicles are managed by the manager

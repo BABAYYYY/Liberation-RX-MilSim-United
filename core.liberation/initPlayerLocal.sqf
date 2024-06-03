@@ -6,7 +6,7 @@ waitUntil {
 
 _rules = "
 DE:<br />
-Regelwerk MiSim United<br />
+Regelwerk<br />
 <br />
 1. Rechtliches<br />
 1.1 Trolling, Beleidigung, Rassismus, sexuelle Belästigung so wie alles was strafrechtlich verfolgt wird, ist verboten und führt zum Ausschluss. <br />
@@ -21,18 +21,23 @@ Regelwerk MiSim United<br />
 2.4 Bei Verlust von Fahrzeugen durch Bugs etc. liegt es im Ermessen der IT, eine Erstattung zu gewähren. (Videobeweis hilft hierbei.) <br />
 2.5 Ausnutzen von Programmfehlern, Bugs, Exploits etc. ist verboten. <br />
 2.6 Bei Konflikten und Regelverstößen ruhig bleiben und ein Video machen! <br />
-2.7 Jeder ist verpflichtet sich selbst um die Vermeidung und Lösung von Konflikten zu bemühen. <br />
+2.7 Das Texten in dem side-Channel ist untersagt! <br />
+2.8 Der rolle entsprechend Ausrüsten! <br />
+2.9 Jeder ist verpflichtet sich selbst um die Vermeidung und Lösung von Konflikten zu bemühen. <br />
 Stufe 1: Persönlich zwischen den Beteiligten. <br />
 Stufe 2: In einem gemeinsamen, klärenden Gespräch, vorzugsweise öffentlich im Chat. <br />
 Stufe 3: Mit Unterstützung der IT.<br />
 <br />
 <br />
 3. Gruppen und Kommunikation<br />
-3.1 Funkrufnamen sollen kurz, international und gut aussprechbar sein. <br />
-3.2 Frequenz 50 ist ausschließlich zur Bodenkommunikation. <br />
-3.3 Frequenz 51 ist ausschließlich zur Boden-Luft-Kommunikation. <br />
-3.4 Frequenz 52 ist ausschließlich zur Luftkommunikation. <br />
-3.5 Funkdisziplin ist einzuhalten, kurze Funksprüche.<br />
+3.1 Mindestens Ein mittglied der gruppe Muss Ein lang Funkgerät dabei haben. <br />
+3.2 Funkrufnamen sollen kurz, international und gut aussprechbar sein. <br />
+3.3 Frequenz 50 ist ausschließlich zur Bodenkommunikation. <br />
+3.4 Frequenz 51 ist ausschließlich zur Boden-Luft-Kommunikation. <br />
+3.5 Frequenz 52 ist ausschließlich zur Luftkommunikation. <br />
+3.6 Funkdisziplin ist einzuhalten, kurze Funksprüche.<br />
+3.6 Gruppen dürfen Maximal 5-6 Mann stark sein.<br />
+3.7 Der Gruppenführer hat das sagen in der gruppe.<br />
 <br />
 <br />
 4. Spezial-Slots<br />
@@ -46,7 +51,7 @@ Boden- und Luftfahrzeuge sind vorrangig Unterstützungselemente. Wenn Infanterie
 <br />
 <br />
 EN:<br />
-Rules MiSim United<br />
+Rules<br />
 <br />
 1. Legal matters<br />
 1.1 Trolling, insults, racism, sexual harassment as well as anything that can be prosecuted under criminal law is prohibited and will lead to exclusion. <br />
@@ -61,18 +66,23 @@ Rules MiSim United<br />
 2.4 If vehicles are lost due to bugs etc., it is at the discretion of IT to grant a refund. (Video evidence helps here.) <br />
 2.5 Taking advantage of program errors, bugs, exploits, etc. is prohibited. <br />
 2.6 In the event of conflicts and rule violations, remain calm and make a video! <br />
-2.7 Everyone is obliged to make their own efforts to avoid and resolve conflicts. <br />
+2.7 Texting in the side-channel is prohibited! <br />
+2.7 Dress acordingly to your Role! <br />
+2.8 Everyone is obliged to make their own efforts to avoid and resolve conflicts. <br />
 Level 1: Personally between the parties involved. <br />
 Stage 2: In a joint, clarifying discussion, preferably publicly in the chat. <br />
 Stage 3: With the support of IT.<br />
 <br />
 <br />
 3. Groups and communication<br />
-3.1 Radio call names should be short, international and easy to pronounce. <br />
-3.2 Frequency 50 is exclusively for ground communication. <br />
-3.3 Frequency 51 is exclusively for ground-air communication. <br />
-3.4 Frequency 52 is exclusively for air communication. <br />
-3.5 Radio discipline must be observed, short radio messages.<br />
+3.1 At least one of the group members has to have an long Range Radio on them. <br />
+3.2 Radio call names should be short, international and easy to pronounce. <br />
+3.3 Frequency 50 is exclusively for ground communication. <br />
+3.4 Frequency 51 is exclusively for ground-air communication. <br />
+3.5 Frequency 52 is exclusively for air communication. <br />
+3.6 Radio discipline must be observed, short radio messages.<br />
+3.7 Groups have to be smaller then 5-6 players.<br />
+3.8 The grouplead is leading the group listen to him.<br />
 <br />
 <br />
 4. Special slots<br />
@@ -201,14 +211,14 @@ player addEventHandler ["Fired", {
 hint format['
 	Karte öffnen, Regeln lesen! \n
 	Open map, read rules! \n
-	TeamSpeak Server: milsim-united.teamspeak.me \n
+	TeamSpeak Server: liberationrxmilsim.teamspeak3.com \n
 '];
 
 sleep 180;
 hint format['
 	Karte öffnen, Regeln lesen! \n
 	Open map, read rules! \n
-	TeamSpeak Server: milsim-united.teamspeak.me \n
+	TeamSpeak Server: liberationrxmilsim.teamspeak3.com \n
 '];
 
 

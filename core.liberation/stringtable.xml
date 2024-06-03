@@ -2,7 +2,7 @@
 <Project name="Liberation">
         <Package name="Liberation">
             <Key ID="STR_MISSION_TITLE">
-                    <Original>-= Liberation RX =-</Original>
+                    <Original> -=Liberation RX=- </Original>
             </Key>
             <Key ID="STR_MISSION_AUTHOR">
                     <Original>[GREUH] Zbug, [GREUH] McKeewa, [AKH] pSiKO</Original>
@@ -13,13 +13,13 @@
                     <Japanese>バージョン0.927</Japanese>
             </Key>
             <Key ID="STR_MISSION_DESCRIPTION">
-                    <Original>MilSim United</Original>
-                    <French>MilSim United</French>
-                    <German>MilSim United</German>
-                    <Spanish>MilSim United</Spanish>
-                    <Russian>MilSim United</Russian>
-                    <Chinesesimp>MilSim United</Chinesesimp>
-                    <Japanese>MilSim United</Japanese>
+                    <Original>Liberation-RX-Milsim</Original>
+                    <French>Liberation-RX-Milsim</French>
+                    <German>Liberation-RX-Milsim</German>
+                    <Spanish>Liberation-RX-Milsim</Spanish>
+                    <Russian>Liberation-RX-Milsim</Russian>
+                    <Chinesesimp>Liberation-RX-Milsim</Chinesesimp>
+                    <Japanese>Liberation-RX-Milsim</Japanese>
             </Key>
             <Key ID="STR_Deploy_OnPoint">
                     <Original>Deploy</Original>
@@ -3867,9 +3867,9 @@
             <!--  Added in 0.927 -->
             <Key ID="STR_NOTICE_TEXT1">
                     <Original>&lt;br/&gt;
-                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  MilSim United&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
+                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  Liberation-RX-Milsim&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
                     Play as you wish but try to work together.&lt;br/&gt;
-                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;milsim-united.teamspeak.me&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
+                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;liberationrxmilsim.teamspeak3.com&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
                     Ammo is the currency. Earn it by conquering, side missions,&lt;br/&gt;
                     returning prisoners, recycling and fighting enemies.&lt;br/&gt;&lt;br/&gt;
                     Respawning or disconnecting while unconscious costs some of your ammo.&lt;br/&gt;&lt;br/&gt;
@@ -3878,9 +3878,9 @@
                     Good game !!
                     </Original>
                     <French>&lt;br/&gt;
-                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  MilSim United&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
+                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  Liberation-RX-Milsim&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
                     Play as you wish but try to work together.&lt;br/&gt;
-                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;milsim-united.teamspeak.me&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
+                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;liberationrxmilsim.teamspeak3.com&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
                     Ammo is the currency. Earn it by conquering, side missions,&lt;br/&gt;
                     returning prisoners, recycling and fighting enemies.&lt;br/&gt;&lt;br/&gt;
                     Respawning or disconnecting while unconscious costs some of your ammo.&lt;br/&gt;&lt;br/&gt;
@@ -3889,9 +3889,9 @@
                     Good game !!
                     </French>
                     <Chinesesimp>&lt;br/&gt;
-                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  MilSim United&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
+                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  Liberation-RX-Milsim&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
                     Play as you wish but try to work together.&lt;br/&gt;
-                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;milsim-united.teamspeak.me&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
+                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;liberationrxmilsim.teamspeak3.com&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
                     Ammo is the currency. Earn it by conquering, side missions,&lt;br/&gt;
                     returning prisoners, recycling and fighting enemies.&lt;br/&gt;&lt;br/&gt;
                     Respawning or disconnecting while unconscious costs some of your ammo.&lt;br/&gt;&lt;br/&gt;
@@ -3900,9 +3900,9 @@
                     Good game !!
                     </Chinesesimp>
                     <Japanese>&lt;br/&gt;
-                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  MilSim United&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
+                    Welcome to &lt;t color='#00ff00'&gt;LiberationRX  -  Liberation-RX-Milsim&lt;/t&gt; !!&lt;br/&gt;&lt;br/&gt;
                     Play as you wish but try to work together.&lt;br/&gt;
-                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;milsim-united.teamspeak.me&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
+                    Therefore you need to join us on TeamSpeak: &lt;t color='#0080ff'&gt;liberationrxmilsim.teamspeak3.com&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;
                     Ammo is the currency. Earn it by conquering, side missions,&lt;br/&gt;
                     returning prisoners, recycling and fighting enemies.&lt;br/&gt;&lt;br/&gt;
                     Respawning or disconnecting while unconscious costs some of your ammo.&lt;br/&gt;&lt;br/&gt;

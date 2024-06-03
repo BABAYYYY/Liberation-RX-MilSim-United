@@ -101,7 +101,7 @@ addMissionEventHandler ['EntityKilled', {
 hs_spawn_init = '[this] spawn loadout_militia;';
 
 hs_spawn = compileFinal "
-	if( huber_commandos && (diag_fps > 30.0) ) then {
+	if(huber_commandos && (diag_fps > 30.0) ) then {
 		_headlessClients = entities 'HeadlessClient_F';
 		_humanPlayers = allPlayers - _headlessClients;
 		_count_players = count _humanPlayers;
@@ -157,11 +157,9 @@ hs_spawn = compileFinal "
 // Server-Time is between 05:30 and 05:45
 [] execVM "MilSimUnited\checkSystemTime.sqf";
 ["Initialize", [true]] call BIS_fnc_dynamicGroups;
-
 while { true } do {
 	sleep msu_heartbeat;
 	_hs_time = systemTime;
-
 	if (((_hs_time select 3) == 5) && ((_hs_time select 4) < 30)) then {
 		_msg = format['Server restart and maintenance at 05:30. Recycle your vehicles in time! Server-Neustart und Wartung um 05:30. Fahrzeuge rechtzeitig recyceln!'];
 		[gamelogic, _msg] remoteExec ["globalChat", 0];
