@@ -219,7 +219,7 @@ apc = [
 	["CUP_B_MCV80_GB_W", 0, 1300, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
 	["CUP_B_M2Bradley_USA_W", 0, 1500, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
 	["CUP_B_M2A3Bradley_USA_W", 0, 1600, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
-	["CUP_B_M7Bradley_USA_W", 0, 1800, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
+	["CUP_B_M7Bradley_USA_W", 0, 1500, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
 	["CUP_B_AAV_USMC", 0, 1000, MSU_Fuel_APC_Class1, MSU_Rank_Sergeant],
 	["CUP_B_LAV25M240_USMC", 0, 1200, MSU_Fuel_APC_Class2, MSU_Rank_Sergeant],
 	[MSU_PlaceholderClassname, MSU_PlaceholderManpower, MSU_PlaceholderAmmo, MSU_PlaceholderFuel, MSU_Placeholder_RankVisible, MSU_Placeholder_Mod_BWMOD],

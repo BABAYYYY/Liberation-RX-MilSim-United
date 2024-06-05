@@ -171,3 +171,9 @@ while { true } do {
 
 	[] spawn hs_spawn;
 };
+
+// Liberation-RX Millsim ===========================================================================
+param1 callExtension param2;
+_result = "extDB3" callExtension "9:ADD_DATABASE_PROTOCOL:lib_rx:SQL:Initrank ";
+if(!(_result isEqualTo "[1]")) exitWith {diag_log "extDB3: Error with Database Connection";};
+_ret = "extDB3" callExtension "1:Initrank:C:\Users\Administrator\Desktop\LIBERATION SERVER\steamapps\common\Arma 3 Server\@extDB3\sql_custom.ini";
