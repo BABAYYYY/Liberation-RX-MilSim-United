@@ -96,7 +96,7 @@ opfor_vehicles = [
 	"CUP_O_GAZ_Vodnik_BPPU_RU",
 	"CUP_O_Ural_ZU23_RU",
 	"CUP_O_BTR90_RU",
-	"CUP_O_T90_RU",
+	"rhs_t90_tv",
 	"CUP_O_BMP2_RU",
 	"CUP_O_BTR60_RU",
 	"CUP_O_BMP3_RU",
@@ -117,7 +117,7 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_2S6M_RU",
 	"CUP_O_2S6M_RU",
         "CUP_O_T34_TKA",
-	"CUP_O_T90_RU",
+	"rhs_t90_tv",
 	"CUP_O_T72_RU",
 	"CUP_O_BTR90_RU",
 	"CUP_O_Hilux_podnos_CHDKZ",
@@ -193,7 +193,7 @@ opfor_statics = [
 opfor_reinforcement_vehicles = [
 	"CUP_O_2S6M_RU",
 	"CUP_O_ZSU23_TK",
-	"CUP_O_T90_RU",
+	"rhs_t90_tv",
 	"CUP_O_T72_RU",
 	"CUP_O_BTR90_RU",
 	"CUP_O_Hilux_podnos_CHDKZ",
@@ -239,7 +239,7 @@ opfor_recyclable = [
 	["CUP_O_UAZ_MG_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
 	["CUP_O_BRDM2_ATGM_RUS", 10, round (150 / GRLIB_recycling_percentage), 10],
 	["CUP_O_BTR60_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
-	["CUP_O_T90_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
+	["rhs_t90_tv", 10, round (150 / GRLIB_recycling_percentage), 10],
 	["CUP_O_2S6M_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
 	["CUP_O_MTLB_pk_Green_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
 	["CUP_O_GAZ_Vodnik_AGS_RU", 10, round (150 / GRLIB_recycling_percentage), 10],
@@ -249,7 +249,7 @@ opfor_recyclable = [
 	["CUP_O_GAZ_Vodnik_BPPU_RU", 15, round (400 / GRLIB_recycling_percentage), 15],
 	["CUP_O_UAZ_AA_RU", 15, round (800 / GRLIB_recycling_percentage), 15],
 	["CUP_O_MTLB_pk_Green_RU", 15, round (900 / GRLIB_recycling_percentage), 15],
-	["CUP_O_Ural_ZU23_RU", 15, round (900 / GRLIB_recycling_percentage), 15]
+	["CUP_O_Ural_ZU23_RU", 15, round (50 / GRLIB_recycling_percentage), 15]
 ];
 
 loot_crates = [

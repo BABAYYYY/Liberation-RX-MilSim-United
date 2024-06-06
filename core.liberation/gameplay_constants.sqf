@@ -177,13 +177,15 @@ ied_enemy_sector = ["ACE_IEDLandBig_Range", "APERSMine", "APERSBoundingMine", "I
 
 moderators = [
     "76561199098820373", // ryanm
-    "76561198948326081" // Бабай
+    "76561198948326081", // Бабай
+	"76561198189788519"  // Kirby
 ];
 
 curatorLogicGroup = createGroup [sideLogic, false];
 allowed_zeus_curators = [
     ["76561199098820373", "ryanm"],
-    ["76561198948326081", "Бабай"]
+    ["76561198948326081", "Бабай"],
+	["76561198189788519", "Jonas Kirby"]
 ];
 
 

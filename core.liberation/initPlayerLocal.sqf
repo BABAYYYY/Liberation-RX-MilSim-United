@@ -36,8 +36,8 @@ Stufe 3: Mit Unterstützung der IT.<br />
 3.4 Frequenz 51 ist ausschließlich zur Boden-Luft-Kommunikation. <br />
 3.5 Frequenz 52 ist ausschließlich zur Luftkommunikation. <br />
 3.6 Funkdisziplin ist einzuhalten, kurze Funksprüche.<br />
-3.6 Gruppen dürfen Maximal 5-6 Mann stark sein.<br />
-3.7 Der Gruppenführer hat das sagen in der gruppe.<br />
+3.7 Gruppen dürfen Maximal 5-6 Mann stark sein.<br />
+3.8 Der Gruppenführer hat das sagen in der gruppe.<br />
 <br />
 <br />
 4. Spezial-Slots<br />
